@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="images/png" href="\Documents\Docs\Links_logo.png" />
+    <title>Links</title>
+   </head>
+
+  <body>
+    <header>
+      <h1>Hyper Links</h1>
+      <main>Knowing how to link your code to other documents is important.</main>
+    </header>
+
+    <div id ="absolute" >
+        <h2>Absolute references</h2>
+          <p>Absolute references(sometimes called external links) connect to pages in other domains.In the href attribute of the tag the full URL of the page,image,or other resource you would like to link to is specified.One example mignt be your quest to list some of the greatest book shops of all the time.Since you want to link to the book shops themselves and not files you wrote,you would use an absolute refernces.</p>
+            <ul>
+            	<li><a href="https://www.sapnaonline.com/">Sapna Book House</a></li>
+            	<li><a href="https://lbb.in/bangalore/blossom-book-house/">Blossoms Book House</a></li>
+            	<li><a href="https://www.amazon.in">Amazon Online Book Shopping</a></li>
+            </ul>
+    </div>
+
+    <div id="relative">
+        <h2>Realtive references</h2>
+          <p>Relative refrences(sometimes called internal links) connect to pages in other domains.In the href attribute of the tag only the folder(if any) and filename is specified.Some examples of when you might use reletive refernces would be in your navigation bar or links to your images.</p>
+            <ul>
+            	<li><a href="\Camera\Lenovo\Camera\Sapnabookhouse.jpg">Fiction section,Sapna Book House.</a><br></li>
+            </ul> 
+    </div>
+
+    <div id="images">
+        <h2>Images as links</h2>
+          <p>More and more people are moving away from textual prompts to ones that are graphics based.This is because the page looks "nice". I can redo the link above using a picture instead of words.
+             <a href="\Camera\Lenovo\Camera\Sapnabookhouse.jpg">
+               <img src="\Camera\Lenovo\Camera\Sapnabookhouse.jpg" alt="Book shelf" width="50%" alt="Book shelf">
+             </a><br>
+          </p>
+          <p>Something to keep in mind though is that not everyone can see the image,or they may not realize that the image is a link.As you become more confident in your coding you will want to make sure to have many people test your pages so that you can make it an optional experience for as many people as possible.<br>
+          	</p>
+    </div>
+    
+    <div id="embedded">
+        <h2>Embedded links</h2>
+          <p>Every tag can have an id attribute.The id attribute gives a name to a specific section of the <abbr title="Document Object Model">DOM</abbr>.You can use that id to link directly to a part of a page in general.This is a great way to allow people to quickly jump from one part of your page to the specific section you are looking for.Review the material on:
+             <ul>
+             	<li><a href="#absolute">Absolute References</a></li>
+             	<li><a href="#relative">Relative references</a></li>
+             	<li><a href="#images">Images as links</a></li>
+             	<li><a href="#embedded">Embedded links</a></li>
+             </ul>
+          </p>
+          <p>When you click on any one of the links above, the browser will bring that section into focus.It may be the case that the bottom two links don't do anything for you.That is because this content is already in your screen.</p>
+          <p>**Don't forget that you can choose "View Source" to see the code I used to create these links.</p>
+    </div>
+   </body>
+   <footer>&copy;2016 by Chinnu</footer>
+</html> 
